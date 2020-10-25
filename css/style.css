@@ -1,0 +1,126 @@
+* {
+    /* border: 0.001rem solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Nunito', sans-serif; */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.whatsappButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 999;
+    bottom: 8px;
+    right: 8px;
+    height: 60px;
+    min-width: 60px;
+    max-width: 95vw;
+    background: #25d366;
+    color: inherit;
+    border-radius: 30px;
+    box-shadow: 1px 6px 24px 0 rgba(7,94,84,.24);
+    cursor: pointer;
+    transition: background .2s linear;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    will-change: background-color,width;
+}
+
+.main {
+    display: flex; 
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    margin-left: 5%;
+    padding: 10px 0;
+}
+
+    .menu-branch {
+        flex-grow: 1;
+    }
+    .menu-icon {
+        margin-right: 5%;
+    }
+
+.home {
+    background-image: url("../images/logo_fundo.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 50%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+    .titulo h1, .titulo h2, .titulo h6 {
+        padding: 2px;
+    }
+
+    .titulo-nome {
+        font-size: 40px;
+    }
+
+    .titulo-especialidade {
+        font-size: 60px;
+    }
+
+    .titulo-rotulo {
+        font-size: 15px;
+    }
+
+
+.informacoes {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    height: 50%;
+}
+
+.informacao {
+    display: flex;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.informacao .icon {
+    align-items: center;
+    padding: 5px 5px 5px 20px;
+}
+    .fa-credit-card {
+        color: yellow;
+    }
+
+    .fa-whatsapp-square {
+        color: #25d366;
+    }
+
+    .fa-instagram {
+        color: violet;
+    }
+    
+.informacao .texto {
+    align-items: center;
+    padding: 5px 10px;
+}    

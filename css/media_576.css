@@ -1,0 +1,74 @@
+@media screen and (max-width: 700px) and (orientation: landscape) {
+    .whatsappButton {
+        bottom: 8px;
+        right: 8px;
+        height: 60px;
+        min-width: 60px;
+    }
+
+    .menu {
+        margin-left: 5%;
+        padding: 10px 0;
+    }
+
+        .menu-icon {
+            margin-right: 5%;
+        }
+
+    .titulo {
+        height: 50%;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 5px;
+    }
+        .titulo h1, .titulo h2, .titulo h6 {
+            padding: 2px;
+            padding: 5px 5px 5px 20px;
+        }
+    
+        .titulo-nome {
+            font-size: 30px;
+        }
+    
+        .titulo-especialidade {
+            font-size: 50px;
+        }
+    
+        .titulo-rotulo {
+            font-size: 15px;
+        }
+
+    .informacoes {
+        height: 40%; 
+        margin: 10px auto;
+        width: 70%;
+    }
+    
+        .informacao {
+            display: flex;
+            margin: 2px;
+            font-size: 12px;
+        }
+    
+        .informacao .icon {
+            align-items: center;
+            padding: 5px 5px 5px 20px;
+        }
+            .fa-credit-card {
+                color: yellow;
+            }
+        
+            .fa-whatsapp-square {
+                color: #25d366;
+            }
+        
+            .fa-instagram {
+                color: violet;
+            }
+            
+        .informacao .texto {
+            align-items: center;
+            padding: 5px 10px;
+        }      
+    
+}

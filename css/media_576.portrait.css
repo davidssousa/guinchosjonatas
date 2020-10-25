@@ -1,0 +1,45 @@
+@media screen and (max-width: 700px) and (orientation: portrait) {
+    .whatsappButton {
+        bottom: 8px;
+        right: 8px;
+        height: 60px;
+        min-width: 60px;
+    }
+
+    .menu {
+        margin-left: 5%;
+        padding: 10px 0;
+    }
+
+        .menu-icon {
+            margin-right: 5%;
+        }
+
+    .titulo {
+        height: 50%;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+    }
+        .titulo h1, .titulo h2, .titulo h6 {
+            padding: 2px;
+        }
+    
+        .titulo-nome {
+            font-size: 30px;
+        }
+    
+        .titulo-especialidade {
+            font-size: 60px;
+        }
+    
+        .titulo-rotulo {
+            font-size: 15px;
+        }
+
+    .informacao {
+        display: flex;
+        margin: 3px;
+        font-size: 14px;
+    }
+}
